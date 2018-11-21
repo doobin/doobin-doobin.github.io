@@ -433,6 +433,10 @@ li {
     letter-spacing: 2px;
 }
 
+.h-social-icon {
+  padding-right: 100px;
+}
+
 .header-social-info .h-social-icon > a {
     color: #959595;
     margin-bottom: 30px;
@@ -524,7 +528,7 @@ li {
 
 .hero-content-area .hero-text h2 {
     font-size: 48px;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     font-weight: 700;
 }
 
