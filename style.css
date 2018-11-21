@@ -504,8 +504,11 @@ li {
 /* Hero Area CSS */
 
 #logo {
-  padding-top: 30px;
   padding-right: 40px;
+}
+
+#logo_area {
+  padding-bottom: 20px;
 }
 
 .fplus-hero-area {
