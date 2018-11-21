@@ -503,12 +503,12 @@ li {
 
 /* Hero Area CSS */
 
-#logo > a {
+#logo {
   color: #ff6c00;
   padding-right: 40px;
 }
 
-#logo > a:hover{
+#logo:hover {
   color: black;
   padding-right: 40px;
 }
