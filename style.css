@@ -503,12 +503,18 @@ li {
 
 /* Hero Area CSS */
 
-#logo {
+#logo > a {
+  color: #ff6c00;
+  padding-right: 40px;
+}
+
+#logo > a:hover{
+  color: black;
   padding-right: 40px;
 }
 
 #logo-area {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .fplus-hero-area {
