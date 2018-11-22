@@ -19,7 +19,7 @@ var mapOptions = {
 };
 map = new google.maps.Map(document.getElementById("googleMap"), mapOptions);
 var geocoder_map = new google.maps.Geocoder();
-var address = 'London';
+var address = 'Boston';
 geocoder_map.geocode({
     'address': address
 }, function (results, status) {

@@ -1,8 +1,8 @@
 <?php
-    
+
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        
+
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
         $subject = strip_tags(trim($_POST["subject"]));
@@ -21,16 +21,16 @@
 
         ////////////////////////////////////////////
         ////////////////////////////////////////////
-        
+
         // Set the recipient email address.
-        
+
         // FIXME: Update this to your desired email address.
-        $recipient = "";
+        $recipient = "doobin42@gmail.com";
 
         ////////////////////////////////////////////
         ////////////////////////////////////////////
-        
-        
+
+
         // Set the email subject.
         $subject = "New Message from $name";
 
