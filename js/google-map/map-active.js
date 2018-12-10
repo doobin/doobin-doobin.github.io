@@ -34,8 +34,6 @@ geocoder_map.geocode({
         alert("Geocode was not successful for the following reason: " + status);
     }
 });
-var mapType = new google.maps.StyledMapType(stylez, {
-    name: "Grayscale"
-});
+var mapType = new google.maps.StyledMapType();
 map.mapTypes.set('gMap', mapType);
 map.setMapTypeId('gMap');
