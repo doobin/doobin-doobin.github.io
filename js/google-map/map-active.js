@@ -8,7 +8,7 @@ var stylez = [{
             }]
         }];
 var mapOptions = {
-    zoom: 15,
+    zoom: 12,
     center: latlng,
     scrollwheel: false,
     scaleControl: false,
@@ -34,6 +34,8 @@ geocoder_map.geocode({
         alert("Geocode was not successful for the following reason: " + status);
     }
 });
-var mapType = new google.maps.StyledMapType();
+var mapType = new google.maps.StyledMapType(stylez, {
+    name: "Grayscale"
+});
 map.mapTypes.set('gMap', mapType);
 map.setMapTypeId('gMap');
